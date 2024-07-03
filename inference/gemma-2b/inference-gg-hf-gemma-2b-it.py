@@ -2,6 +2,8 @@ import gradio as gr
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 import torch
 import time
+from huggingface_hub import login
+login("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")
 
 # Function to get GPU information
 def get_gpu_info():
