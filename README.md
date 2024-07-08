@@ -178,12 +178,14 @@ chat = [
 ##### Inference with `google/gemma-2b-it`
 To run the inference using the `google/gemma-2b-it` model, run the following command in the path `/inference/gemma-2b/`
 ```console
+cd inference/gemma-2b
 python inference-gemma-2b-it.py
 ```
 
 ##### Inference with `gg-hf/gemma-2b-it`
 To run the inference using the `gg-hf/gemma-2b-it` model, run the following command in the path `/inference/gemma-2b/`
 ```console
+cd inference/gemma-2b
 python inference-gg-hf-gemma-2b-it.py
 ```
 
@@ -193,6 +195,7 @@ The Llama 3 instruction-tuned models are fine-tuned and optimized for dialogue/c
 ##### Inference
 To run inference using the Llama 3 8B Instructed model, run the following command in the path `/inference/llama3-8b/`
 ```console
+cd inference/llama3-8b
 python inference-llama3-8b.py
 ```
 
@@ -202,6 +205,7 @@ TinyLlama is a small LLM with 1.1B parameters that uses the same architecture as
 ##### Inference
 To run inference using the TinyLlama 1B model, run the following command in the path `/inference/tinyllama-1b/`
 ```console
+cd inference/tinyllama
 python inference-tinyllama-1b-chat.py
 ```
 ---
