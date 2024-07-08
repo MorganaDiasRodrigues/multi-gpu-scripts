@@ -69,6 +69,25 @@ The model was able to answer the customer's inquiry based on the instructions we
 
 ### Let's set up your workspace using [Anaconda](https://docs.anaconda.com/anaconda/install/) 🐍
 
+#### Installing Anaconda
+1. Go to the [Anaconda](https://docs.anaconda.com/anaconda/install/) installation and select the version for your operating system. Mine is Windows,
+for example, so I downloaded the Windows version.
+
+2. Click on the Anaconda installer and follow the installation instructions.
+
+3. In the installation process, you will be asked if you want to add Anaconda to your PATH. I recommend checking this option to make it easier to use Anaconda in your terminal.
+![alt text](image-6.png).
+
+4. After the installation is complete, open your terminal and run the following command to check if Anaconda was installed correctly:
+```console
+conda --version
+```
+
+5. If you see the version of Anaconda, it means it was installed correctly! 🎉
+If not, please check this [troubleshooting video](https://www.youtube.com/watch?v=Xa6m1hJHba0).
+
+#### Creating your virtual environment
+
 1. First, you need to have Anaconda installed on your machine. 
 To check if you have it installed, run the following command in your terminal:
 ```console
