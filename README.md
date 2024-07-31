@@ -12,7 +12,7 @@ In this folder, we have 3 different models:
 Each one has its own script to run the inference using the model's template, and each one has their
 own Gradio UI to make it easier to interact with the model and check the results.
 
-![alt text](image-1.png)
+![alt text](img/image-1.png)
 
 You can check in the UI:
 - What are the available GPUs
@@ -76,7 +76,7 @@ for example, so I downloaded the Windows version.
 2. Click on the Anaconda installer and follow the installation instructions.
 
 3. In the installation process, you will be asked if you want to add Anaconda to your PATH. I recommend checking this option to make it easier to use Anaconda in your terminal.
-![alt text](image-6.png).
+![alt text](img/image-6.png).
 
 4. After the installation is complete, open your terminal and run the following command to check if Anaconda was installed correctly:
 ```console
@@ -104,7 +104,7 @@ conda activate llms
 4. Install the PyTorch library:
 Go to the [PyTorch Installation Page](https://pytorch.org/get-started/locally/) and select the options that best fit your machine.
 Mine for example is:
-![alt text](image-2.png)
+![alt text](img/image-2.png)
 
 Then, copy and paste the command in your terminal, like this
 ```console
@@ -134,7 +134,7 @@ file explorer. Go to the path where the `llms` environment is located and select
 
 6. Check Active Paths
 One of your active paths should be the path of the `llms` environment.
-![alt text](image-3.png)
+![alt text](img/image-3.png)
 
 What we ddi here was point this specific Python environment to the Java UI,
 so wenever we run a script using this environment, we are automatically using Java.
@@ -142,7 +142,7 @@ so wenever we run a script using this environment, we are automatically using Ja
 7. Connect to your remotes GPU
 In the Connect > Applications tab, click on the Connect to Remote GPU button.
 Select the pool you want to connect to and click on Connect.
-![alt text](image-4.png)
+![alt text](img/image-4.png)
 
 We're ready to run the scripts using Java! 🚀
 
@@ -161,7 +161,7 @@ cd inference
 ⭐ Now, each model has its own folder, so read the instructions below to run the inference for each model.
 ⭐ At the end of the call of the script, a URL is generated:
 
-![alt text](image-5.png)
+![alt text](img/image-5.png)
 
 You can click on it to open the Gradio UI in your browser and interact with the model.
 
