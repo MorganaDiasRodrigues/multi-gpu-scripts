@@ -1,4 +1,4 @@
-# 🦙 Running Training and Inferences with LLMs using Java
+# 🦙 Training and Inference with LLMs: Single vs Multi-GPU with Juice
 
 ## Introduction
 Hello! In this repository, you will find 2 different folders, one for inference and one for training. Unfortunately, we're not able to run the training scripts using  Gradio and Java, so we are focousing on the inference scripts. As soon as they fix this bug, I'll update the repository with the documentation on how to run the training scripts using Java. 🤗
