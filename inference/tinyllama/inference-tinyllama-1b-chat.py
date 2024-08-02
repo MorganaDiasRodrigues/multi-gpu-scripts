@@ -3,7 +3,7 @@ import torch
 from transformers import pipeline
 import time
 from huggingface_hub import login
-login("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")
+login("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")
 
 # Function to get GPU information
 def get_gpu_info():
